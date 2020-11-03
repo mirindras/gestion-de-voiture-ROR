@@ -3,16 +3,16 @@
 ce programme utilise le système CRUD et le Ruby ON Rails
 
 # Capture d’écran 
-![INDEX](https://github.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/index.png) 
+![INDEX](https://raw.githubusercontent.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/index.png) 
 
 
-![CREAT](https://github.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/creat.png) 
+![CREAT](https://raw.githubusercontent.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/creat.png) 
 
 
-![SHOW](https://github.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/show.png) 
+![SHOW](https://raw.githubusercontent.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/show.png) 
 
 
-![EDITER](https://github.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/editer.png) 
+![EDITER](https://raw.githubusercontent.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/editer.png) 
 
 
-![SUPPRIMER](https://github.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/supprimer.png) 
+![SUPPRIMER](https://raw.githubusercontent.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/supprimer.png) 
