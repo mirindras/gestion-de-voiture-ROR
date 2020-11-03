@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <h4 class="mt-4 display-4">Liste Voitures</h4>
+  </div>
+  <%= link_to 'Ajouter une Voiture', new_voiture_path %>
+  <% if @voitures.present? %>
+    <div class="row justify-content-center">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Num</th>
+            <th scope="col">Description</th>
+            <th scope="col">Entrer</th>
+            <th scope="col">Sortie</th>
+            <th scope="col" colspan="3">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @voitures.each do |voiture| %>
+            <tr>
+              <td><%= voiture.num %></td>
+              <td><%= voiture.description %></td>
+              <td><%= voiture.created_at %></td>
+              <td><%= voiture.updated_at %></td>
+              <td><%= link_to 'Voire', voiture_path(voiture.id) %></td> 
+              <td><%= link_to 'Editer', edit_voiture_path(voiture.id) %></td>
+              <td><%= link_to 'Supprimer',
+              voiture_path(voiture.id),
+              method: :delete,
+              data: { confirm: 'Vous ete sure?' } %>             
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  <% else %>
+    <div class="p-3 mb-2 bg-light text-dark">
+      <span class="text-info font-weight-bold">Bienvenue! </span>
+      Crée votre  voiture
+    </div>
+  <% end %>
+</div>

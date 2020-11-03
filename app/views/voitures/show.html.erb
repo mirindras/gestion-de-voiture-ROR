@@ -1,0 +1,29 @@
+
+<div class="container">
+  <div class="row justify-content-center">
+    <h4 class="mt-4 mb-4 display-4"> Details voiture <%= @voiture.id %></h4>
+  </div>
+  <div class="row justify-content-center">
+    <table class="table">
+      <tbody>
+        <tr>
+          <th>Num:</th>
+          <td><%= @voiture.num %></td>
+        </tr>
+        <tr>
+          <th>Description:</th>
+          <td><%= @voiture.description %></td>
+        </tr>
+        <tr>
+          <th>Entre:</th>
+          <td><%= @voiture.created_at %></td>
+        </tr>
+        <tr>
+          <th>Sortie:</th>
+          <td><%= @voiture.updated_at %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+</div>
