@@ -1,24 +1,10 @@
-# README
+# gestion-de-voiture-ROR
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ce programme utilise le système CRUD et le Ruby ON Rails
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Capture d’écran 
+![alt text](https://github.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/index.png) 
+![alt text](https://github.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/creat.png) 
+![alt text](https://github.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/show.png) 
+![alt text](https://github.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/editer.png) 
+![alt text](https://github.com/mirindras/gestion-de-voiture-ROR/tree/main/app/assets/images/supprimer.png) 
